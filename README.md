@@ -6,6 +6,13 @@ O projeto consiste no desenvolvimento de um sistema embarcado para monitorar o c
 
 O sistema será capaz de medir tensão, corrente, potência e energia consumida, exibindo os valores em tempo real em um display OLED.
 
+## Alunos
+
+Hardware: *Aluno A*
+Firmware: Ítalo Gowbery Mota Vieira - 12311EAU013
+Validação e documentação: *Aluno C*
+
+
 ## Componentes principais
 
 - **STM32F411CEU6:** microcontrolador responsável pelo processamento.
