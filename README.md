@@ -8,7 +8,7 @@ O sistema será capaz de medir tensão, corrente, potência e energia consumida,
 
 ## Alunos
 
-Hardware: Paulo Antônio Deoterônio Mesquita 12221EAU012
+Hardware: Paulo Antônio Deoterônio Mesquita - 12221EAU012
 
 Firmware: Ítalo Gowbery Mota Vieira - 12311EAU013
 
