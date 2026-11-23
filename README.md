@@ -9,9 +9,10 @@ O sistema será capaz de medir tensão, corrente, potência e energia consumida,
 ## Alunos
 
 Hardware: *Aluno A*
-Firmware: Ítalo Gowbery Mota Vieira - 12311EAU013
-Validação e documentação: *Aluno C*
 
+Firmware: Ítalo Gowbery Mota Vieira - 12311EAU013
+
+Validação e documentação: *Aluno C*
 
 ## Componentes principais
 
