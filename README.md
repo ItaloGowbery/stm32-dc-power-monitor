@@ -12,7 +12,7 @@ Hardware: *Aluno A*
 
 Firmware: Ítalo Gowbery Mota Vieira - 12311EAU013
 
-Validação e documentação: *Aluno C*
+Validação e documentação: Paulo Antônio Deoterônio Mesquita 12221EAU012
 
 ## Componentes principais
 
