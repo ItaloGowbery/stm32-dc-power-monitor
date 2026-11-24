@@ -12,7 +12,7 @@ Hardware: Paulo Antônio Deoterônio Mesquita - 12221EAU012
 
 Firmware: Ítalo Gowbery Mota Vieira - 12311EAU013
 
-Validação e documentação: *Aluno C*
+Validação e documentação: Júlio Cézar Benetti Andrade Ortelan - 12311EAU016
 
 ## Componentes principais
 
