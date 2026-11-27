@@ -48,6 +48,33 @@ O projeto envolverá:
 - Depuração utilizando ST-Link V2 e GDB.
 - Validação das medições e da comunicação I2C com equipamentos de laboratório.
 
+## Atendimento aos requisitos do projeto
+
+| Requisito | Como será atendido |
+|---|---|
+| Microcontrolador | Utilização do STM32F411CEU6 (Black Pill). |
+| Esquemático elétrico | Desenvolvimento do circuito utilizando o Altium Designer. |
+| Layout da PCB | Desenvolvimento de uma placa personalizada para integração dos componentes. |
+| GPIO | Controle dos LEDs de sinalização e leitura do botão. |
+| Barramento de comunicação | Utilização do I2C para comunicação com o INA219 e o OLED SSD1306. |
+| Configuração por registradores | Configuração direta dos periféricos GPIO e I2C, sem utilização de HAL ou CubeMX. |
+| Dimensionamento do barramento | Dimensionamento dos resistores de pull-up e definição da frequência de comunicação. |
+| Documentação do protocolo | Documentação dos endereços, formato dos quadros, temporização e taxa de comunicação I2C. |
+| Integração dos periféricos | Acionamento dos LEDs conforme a corrente medida pelo INA219 e apresentação dos dados no OLED. |
+| Firmware modular | Separação dos drivers GPIO, I2C, INA219 e SSD1306 da lógica da aplicação. |
+| Depuração | Utilização do ST-Link V2 e GDB para breakpoints, inspeção de registradores e leitura de variáveis. |
+| Validação do barramento | Captura dos sinais SDA e SCL utilizando um osciloscópio ou analisador lógico do laboratório. |
+| Validação das medições | Comparação dos valores medidos pelo INA219 com instrumentos de referência. |
+| Relatório | Documentação do esquemático, layout, testes, resultados e contribuição dos integrantes. |
+
+### Diferenciais previstos
+
+- Fabricação e montagem da PCB utilizando litografia.
+- Utilização de timer para leitura periódica do sensor.
+- Utilização de interrupção externa (EXTI) para o botão.
+- Cálculo da energia acumulada ao longo do tempo.
+- Monitoramento simultâneo de dois dispositivos no barramento I2C.
+
 ## Resultado esperado
 
 Espera-se desenvolver uma placa capaz de monitorar o consumo de uma carga DC em tempo real, exibindo as grandezas elétricas em um display OLED e sinalizando situações de corrente elevada.
